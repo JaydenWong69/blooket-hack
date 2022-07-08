@@ -1,0 +1,3 @@
+prompt('How much token do u want?')
+let x=prompt
+add token:x
