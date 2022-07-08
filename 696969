@@ -1,3 +1,2 @@
 prompt('How much token do u want?')
-let x=prompt
-add token:x
+alert('it was a joke lol')
