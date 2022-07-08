@@ -1,37 +1,7 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-	<title>
-		Pop-up Box type | Prompt Box
-	</title>
-	<style>
-		h1 {
-			color: green;
-		}
-	</style>
-</head>
-
-<body>
-
-	<center>
-
-		<h1>GeeksforGeeks</h1>
-
-		<h3>Prompt Box</h3>
-
-		<input type="button" onclick="geekPrompt();"
-		value="Click here for Prompt box"/>
-
-		<!-- Prompt box function -->
-		<script>
-			function geekPrompt() {
-				var x = prompt("Enter your mail here : ");
-				document.write("Your ID : " + x);
-			}
-		</script>
-	</center>
-
-</body>
-
-</html>
+if (window.location.pathname != '/play/hack') {
+                alert('You must be in a crypto hack game mode to use this hack!');
+            } else {
+                let amount = Number(parseFloat(prompt('How much crypto do you want?')));
+                reactHandler().stateNode.setState({ crypto2: amount, crypto: amount });
+        
+                alert('Crypto added!');
